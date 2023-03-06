@@ -1,0 +1,26 @@
+LPSTR	＝ char*
+LPCSTR	＝ const char*
+LPTSTR	＝ TCHAR*
+LPCTSTR	＝ const TCHAR*
+LPWSTR	＝ WCHAR*
+LPCWSTR	＝ const WCHAR*
+
+
+LP	＝ *（ポインタ）
+C	＝ const
+TSTR	＝ TCHAR
+STR	＝ char
+WSTR	＝ WCHAR
+
+
+
+D3D11_BUFFER_DESC
+ByteWidth　・・・　バッファーのサイズを指定します。
+BindFlags　・・・　頂点バッファーとしてバインドする為 D3D11_BIND_VERTEX_BUFFER
+　　　　　　　　　　　を指定します。
+
+ 
+
+D3D11_SUBRESOURCE_DATA
+pSysMem　・・・　リソースデータのポインタを指定します。
+その他の項目はテクスチャデータの場合にだけ使うものなので「0」を指定します。

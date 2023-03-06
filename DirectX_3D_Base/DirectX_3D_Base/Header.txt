@@ -1,0 +1,74 @@
+/**
+ * @file	ファイル名.h
+ * @brief	簡単な説明
+ * @author	書いた人
+ * @date	日付（開始日？）
+ */
+
+ //===== インクルードガード ======
+#ifndef __機能名_H__
+#define __機能名_H__
+
+//===== インクルード =====
+#include "Component.h"
+
+//===== 前方宣言 =====
+
+//===== マクロ定義 =====
+
+
+//===== 列挙体宣言 =====
+
+
+//===== クラス定義 =====
+class CHoge : public Component
+{
+private:
+
+public:
+	CHoge();
+	~CHoge() override;
+	void Start() override;
+	void Update() override;
+	void Draw() override;
+	void OnCollisionEnter(Object* pObject) override;
+
+
+};
+
+#endif // __機能名_H__
+
+//if(FAILED(hr)) MessageBox(GetMainWnd(), _T(""), NULL, MB_OK);
+
+#pragma region +++++ここで四季によってテクスチャを変える++++++
+		TextureManager* pTexManager = TextureManager::GetInstance();
+		// 四季によってテクスチャを変える
+		switch (SceneGame::GetInstance()->GetSeason())
+		{
+		case SPRING_1:
+		case SPRING_2:	// 春
+			DrawBlock->SetTexture(pTexManager->GetTexture(SPRING_BLOCK_TEX_NUM));
+			DrawBlock->SetTexture(pTexManager->GetTexture(SPRING_CLOVER_TEX_NUM));
+			DrawBlock->SetTexture(pTexManager->GetTexture(SPRING_TSUBOMI_TEX_NUM));
+			break;
+		case SUMMER_1:
+		case SUMMER_2:	// 夏
+			DrawBlock->SetTexture(pTexManager->GetTexture(SUMMER_BLOCK_TEX_NUM));
+			DrawBlock->SetTexture(pTexManager->GetTexture(SUMMER_CLOVER_TEX_NUM));
+			DrawBlock->SetTexture(pTexManager->GetTexture(SUMMER_TSUBOMI_TEX_NUM));
+			break;
+		case FALL_1:
+		case FALL_2:	// 秋
+			DrawBlock->SetTexture(pTexManager->GetTexture(FALL_BLOCK_TEX_NUM));
+			DrawBlock->SetTexture(pTexManager->GetTexture(FALL_CLOVER_TEX_NUM));
+			DrawBlock->SetTexture(pTexManager->GetTexture(FALL_TSUBOMI_TEX_NUM));
+			break;
+		case WINTER_1:
+		case WINTER_2:	// 冬
+			DrawBlock->SetTexture(pTexManager->GetTexture(WINTER_BLOCK_TEX_NUM));
+			DrawBlock->SetTexture(pTexManager->GetTexture(WINTER_CLOVER_TEX_NUM));
+			DrawBlock->SetTexture(pTexManager->GetTexture(WINTER_TSUBOMI_TEX_NUM));
+			break;
+		default:break;
+		}
+#pragma endregion

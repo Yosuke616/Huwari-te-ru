@@ -1,0 +1,679 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{40a68c68-69a2-4cb0-a74c-679e8a04575c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{36a82609-645e-493a-badb-d61b61c3f16a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{a8c62714-5a78-41b7-9d90-841d8351c8e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{ab1f26ee-ab37-45dc-8866-7d6c42832cb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view">
+      <UniqueIdentifier>{7f23c77d-9e58-4c0b-bfc8-f63e3a2a9de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{7ab00c86-139b-49e4-a0ac-2c84c8d82e0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\3dBase">
+      <UniqueIdentifier>{66bca916-4c98-4708-af66-ef0f00677cce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Render">
+      <UniqueIdentifier>{65491031-b2c3-4b0d-adbc-8e09cea7b80f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Draw">
+      <UniqueIdentifier>{6509f170-a1bc-4817-b2c0-5ba4b31a2f91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Private_use">
+      <UniqueIdentifier>{5e93e315-2e3e-4a45-8b9d-57eff5f2f5b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Wide_use">
+      <UniqueIdentifier>{4bea7a0a-8a35-4d71-88a5-7d232f360999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Player">
+      <UniqueIdentifier>{9735282a-2287-4dbc-9b56-5c3dab5d45cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Season">
+      <UniqueIdentifier>{dca65a64-5897-4ef0-9206-19e2093fac09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Fade">
+      <UniqueIdentifier>{42d5b88c-cc54-4445-9853-7b68c52f8ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\title">
+      <UniqueIdentifier>{88f7d260-3ffe-4d1a-8eeb-c9f8b04b4d7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\stage">
+      <UniqueIdentifier>{7229005b-5b10-4f0e-ab7a-374637f80179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{b91c5302-cdbe-4090-88b7-69910b684333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effekseer">
+      <UniqueIdentifier>{5de944d7-b473-41a3-875b-7eda255d4972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ending">
+      <UniqueIdentifier>{4641c5a5-8719-40f1-b8aa-c52e24717bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\ComponentBase">
+      <UniqueIdentifier>{78f549eb-6b48-4a32-a5b0-ccb25ecf405d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Debug">
+      <UniqueIdentifier>{10deca2f-8f1a-473d-97b2-8deb2236dbbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Only">
+      <UniqueIdentifier>{c29b953c-d904-4925-a6f1-8978049d95aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\File">
+      <UniqueIdentifier>{b95628bb-16f8-4c98-b6c3-be6d88e1bc36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Base\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Base\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>Base\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>Base\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>Base\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>Base\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="AssimpModel.cpp">
+      <Filter>Base\3dBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Base\3dBase</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon.cpp">
+      <Filter>Base\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Base\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneTitle.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="BillboardComponent.cpp">
+      <Filter>Component\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawEffectComponent.cpp">
+      <Filter>Component\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw2dComponent.cpp">
+      <Filter>Component\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw3dComponent.cpp">
+      <Filter>Component\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawMeshComponent.cpp">
+      <Filter>Component\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="WindComponent.cpp">
+      <Filter>Component\Private_use</Filter>
+    </ClCompile>
+    <ClCompile Include="TexScrollComponent.cpp">
+      <Filter>Component\Wide_use</Filter>
+    </ClCompile>
+    <ClCompile Include="HomingComponent.cpp">
+      <Filter>Component\Wide_use</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeComponent.cpp">
+      <Filter>Component\Wide_use</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationComponent.cpp">
+      <Filter>Component\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerComponent.cpp">
+      <Filter>Component\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GaugeComponent.cpp">
+      <Filter>Component\Wide_use</Filter>
+    </ClCompile>
+    <ClCompile Include="FallComponent.cpp">
+      <Filter>Component\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceCSV.cpp">
+      <Filter>Manager\File</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceBase.cpp">
+      <Filter>Manager\File</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>Manager\File</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="fallleafComponent.cpp">
+      <Filter>Component\Private_use</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneFall.cpp">
+      <Filter>Scene\Season</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneWinter.cpp">
+      <Filter>Scene\Season</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSummer.cpp">
+      <Filter>Scene\Season</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSelect.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="InformationComponent.cpp">
+      <Filter>Component\Wide_use</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSpring.cpp">
+      <Filter>Scene\Season</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>Base\Fade</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneGame.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>Effekseer</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="BGChangeComponent.cpp">
+      <Filter>Component\title</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeChangeComponent.cpp">
+      <Filter>Component\title</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiderWebComponent.cpp">
+      <Filter>Component\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="CloverComponent.cpp">
+      <Filter>Component\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="IcicleComponent.cpp">
+      <Filter>Component\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SeedComponent.cpp">
+      <Filter>Component\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="LotationComponent.cpp">
+      <Filter>Component\Wide_use</Filter>
+    </ClCompile>
+    <ClCompile Include="FallenLeavesComponent.cpp">
+      <Filter>Component\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="BudComponent.cpp">
+      <Filter>Component\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteTimerCom.cpp">
+      <Filter>Component\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="PostCollisionComponent.cpp">
+      <Filter>Component\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowCompomemt.cpp">
+      <Filter>Component\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="IceBlockCom.cpp">
+      <Filter>Component\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuComponent.cpp">
+      <Filter>Component\ComponentBase</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformComponent.cpp">
+      <Filter>Component\ComponentBase</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderComponent.cpp">
+      <Filter>Component\ComponentBase</Filter>
+    </ClCompile>
+    <ClCompile Include="GravityComponent.cpp">
+      <Filter>Component\Wide_use</Filter>
+    </ClCompile>
+    <ClCompile Include="OutRangeCom.cpp">
+      <Filter>Component\ComponentBase</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameover.cpp">
+      <Filter>Component\Private_use</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentSoundConfig.cpp">
+      <Filter>Component\Private_use</Filter>
+    </ClCompile>
+    <ClCompile Include="GoMenuComponent.cpp">
+      <Filter>Component\Private_use</Filter>
+    </ClCompile>
+    <ClCompile Include="PreviewComponent.cpp">
+      <Filter>Component\Private_use</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialComponent.cpp">
+      <Filter>Component\Private_use</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEnding.cpp">
+      <Filter>Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="CloverManager.cpp">
+      <Filter>Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberCom.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="PointCom.cpp">
+      <Filter>Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="OffScreenComponent.cpp">
+      <Filter>Component\Wide_use</Filter>
+    </ClCompile>
+    <ClCompile Include="EGravityComponent.cpp">
+      <Filter>Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="fadepolygon.cpp">
+      <Filter>Base\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Scale2DCom.cpp">
+      <Filter>Component\Wide_use</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateLeaf.cpp">
+      <Filter>Manager\Only</Filter>
+    </ClCompile>
+    <ClCompile Include="WindManager.cpp">
+      <Filter>Manager\Only</Filter>
+    </ClCompile>
+    <ClCompile Include="StageManager.cpp">
+      <Filter>Manager\Only</Filter>
+    </ClCompile>
+    <ClCompile Include="GetUIComponent.cpp">
+      <Filter>Component\Private_use</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashComponent.cpp">
+      <Filter>Component\Private_use</Filter>
+    </ClCompile>
+    <ClCompile Include="Blink.cpp">
+      <Filter>Component\Private_use</Filter>
+    </ClCompile>
+    <ClCompile Include="Load.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TagCom.cpp">
+      <Filter>Component\ComponentBase</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imconfig.h">
+      <Filter>Base\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Base\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>Base\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>Base\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Base\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>Base\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>Base\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>Base\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>view</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>view</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="AssimpModel.h">
+      <Filter>Base\3dBase</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Base\3dBase</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneTitle.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundData.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundData.hpp">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectInfo.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BillboardComponent.h">
+      <Filter>Component\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawEffectComponent.h">
+      <Filter>Component\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw2dComponent.h">
+      <Filter>Component\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw3dComponent.h">
+      <Filter>Component\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawMeshComponent.h">
+      <Filter>Component\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="WindComponent.h">
+      <Filter>Component\Private_use</Filter>
+    </ClInclude>
+    <ClInclude Include="TexScrollComponent.h">
+      <Filter>Component\Wide_use</Filter>
+    </ClInclude>
+    <ClInclude Include="HomingComponent.h">
+      <Filter>Component\Wide_use</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeComponent.h">
+      <Filter>Component\Wide_use</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationComponent.h">
+      <Filter>Component\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerComponent.h">
+      <Filter>Component\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GaugeComponent.h">
+      <Filter>Component\Wide_use</Filter>
+    </ClInclude>
+    <ClInclude Include="FallComponent.h">
+      <Filter>Component\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Manager\File</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceBase.h">
+      <Filter>Manager\File</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceCSV.h">
+      <Filter>Manager\File</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="fallleafComponent.h">
+      <Filter>Component\Private_use</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneFall.h">
+      <Filter>Scene\Season</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneWinter.h">
+      <Filter>Scene\Season</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSummer.h">
+      <Filter>Scene\Season</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSelect.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="InformationComponent.h">
+      <Filter>Component\Wide_use</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSpring.h">
+      <Filter>Scene\Season</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>Base\Fade</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneGame.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>Effekseer</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="BGChangeComponent.h">
+      <Filter>Component\title</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeChangeComponent.h">
+      <Filter>Component\title</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiderWebComponent.h">
+      <Filter>Component\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="CloverComponent.h">
+      <Filter>Component\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="IcicleComponent.h">
+      <Filter>Component\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SeedComponent.h">
+      <Filter>Component\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="LotationComponent.h">
+      <Filter>Component\Wide_use</Filter>
+    </ClInclude>
+    <ClInclude Include="FallenLeavesComponent.h">
+      <Filter>Component\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="BudComponent.h">
+      <Filter>Component\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteTimerCom.h">
+      <Filter>Component\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="PostCollisionComponent.h">
+      <Filter>Component\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowCompomemt.h">
+      <Filter>Component\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="IceBlockCom.h">
+      <Filter>Component\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuComponent.h">
+      <Filter>Component\ComponentBase</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>Component\ComponentBase</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderComponent.h">
+      <Filter>Component\ComponentBase</Filter>
+    </ClInclude>
+    <ClInclude Include="GravityComponent.h">
+      <Filter>Component\Wide_use</Filter>
+    </ClInclude>
+    <ClInclude Include="OutRangeCom.h">
+      <Filter>Component\ComponentBase</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameover.h">
+      <Filter>Component\Private_use</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentSoundConfig.h">
+      <Filter>Component\Private_use</Filter>
+    </ClInclude>
+    <ClInclude Include="GoMenuComponent.h">
+      <Filter>Component\Private_use</Filter>
+    </ClInclude>
+    <ClInclude Include="PreviewComponent.h">
+      <Filter>Component\Private_use</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialComponent.h">
+      <Filter>Component\Private_use</Filter>
+    </ClInclude>
+    <ClInclude Include="CloverManager.h">
+      <Filter>Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneEnding.h">
+      <Filter>Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberCom.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="PointCom.h">
+      <Filter>Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="OffScreenComponent.h">
+      <Filter>Component\Wide_use</Filter>
+    </ClInclude>
+    <ClInclude Include="EGravityComponent.h">
+      <Filter>Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="fadepolygon.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Scale2DCom.h">
+      <Filter>Component\Wide_use</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateLeaf.h">
+      <Filter>Manager\Only</Filter>
+    </ClInclude>
+    <ClInclude Include="WindManager.h">
+      <Filter>Manager\Only</Filter>
+    </ClInclude>
+    <ClInclude Include="StageManager.h">
+      <Filter>Manager\Only</Filter>
+    </ClInclude>
+    <ClInclude Include="GetUIComponent.h">
+      <Filter>Component\Private_use</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashComponent.h">
+      <Filter>Component\Private_use</Filter>
+    </ClInclude>
+    <ClInclude Include="Blink.h">
+      <Filter>Component\Private_use</Filter>
+    </ClInclude>
+    <ClInclude Include="Load.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TagCom.h">
+      <Filter>Component\ComponentBase</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="AssimpPixel.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="AssimpVertex.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Pixel.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Pixel2D.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Vertex.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Vertex2D.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelFade.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexFade.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Header.txt" />
+    <Text Include="メモ.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DX11Game.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
